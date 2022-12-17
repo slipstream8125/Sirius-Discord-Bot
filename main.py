@@ -1,8 +1,6 @@
 from keep_alive import keep_alive
 import os
-import json
 import nextcord
-from nextcord import Interaction,SlashOption,ChannelType
 intents = nextcord.Intents.default()
 intents.message_content = True
 #from nextcord import Interaction, CommandOption, ChannelType
