@@ -1,0 +1,12 @@
+{
+  "files": {
+    "poetry.lock": [
+      {
+        "id": "dbb46208-71e0-4cca-895a-c189d02edcdf",
+        "line": 3,
+        "version": 224,
+        "index": 42
+      }
+    ]
+  }
+}
