@@ -3,7 +3,6 @@ import os
 import nextcord
 intents = nextcord.Intents.default()
 intents.message_content = True
-#from nextcord import Interaction, CommandOption, ChannelType
 from nextcord.ext import commands
 os.chdir("cogs")
 
@@ -33,7 +32,7 @@ async def on_ready():
     return
   
 @client.slash_command(name="testing",guild_ids=[testServerId])
-async def test(interaction: Interaction):
+async def test(interaction):
   await interaction.response.send_message("Hi!")
 
 keep_alive()
